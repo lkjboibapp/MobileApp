@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgappmobile"
+
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="vertical"
+            android:scrollbars="horizontal"
+            >
+
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:gravity="center"
+                android:text="สมัครเรียน"
+                android:textColor="#fff"
+                android:textSize="20dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/bget"
+                android:orientation="vertical"
+                android:padding="5dp"
+                android:scrollbars="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:padding="5dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:paddingBottom="5dp"
+                        android:paddingTop="5dp">
+
+                        <TextView
+                            android:id="@+id/Tx1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="เลขบัตรประชาชน"
+                            android:textColor="#000" />
+
+                        <EditText
+                            android:id="@+id/eT1"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:layout_margin="5dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/frame"
+                            android:ems="10"
+                            android:inputType="textPersonName"
+                            android:paddingLeft="10dp"
+                            android:paddingRight="10dp"
+                            android:layout_gravity="center|left" />
+
+                        <TextView
+                            android:id="@+id/Tx3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="รหัสผ่าน"
+                            android:textColor="#000" />
+
+                        <EditText
+                            android:id="@+id/eT2"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:layout_margin="5dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/frame"
+                            android:ems="10"
+                            android:inputType="textPersonName"
+                            android:paddingLeft="10dp"
+                            android:paddingRight="10dp"
+                            android:layout_gravity="center|left"/>
+
+                        <TextView
+                            android:id="@+id/Tx5"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="5dp"
+                            android:text="เลือกหลักสูตร"
+                            android:textColor="#000" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="3dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:paddingBottom="5dp"
+                        android:paddingTop="5dp">
+
+                        <TextView
+                            android:id="@+id/Tx2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="อีเมลล์"
+                            android:textColor="#000" />
+
+                        <EditText
+                            android:id="@+id/eT3"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:layout_margin="5dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/frame"
+                            android:ems="10"
+                            android:inputType="textPersonName"
+                            android:paddingLeft="10dp"
+                            android:paddingRight="10dp"
+                            android:layout_gravity="center|left" />
+
+                        <TextView
+                            android:id="@+id/Tx4"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="ยืนยันรหัสผ่าน"
+                            android:textColor="#000" />
+
+                        <EditText
+                            android:id="@+id/eT4"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:layout_margin="5dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/frame"
+                            android:ems="10"
+                            android:inputType="textPersonName"
+                            android:paddingLeft="10dp"
+                            android:paddingRight="10dp"
+                            android:layout_gravity="center|left" />
+
+                        <Spinner
+                            android:id="@+id/Sp1"
+                            android:layout_width="match_parent"
+                            android:layout_height="25dp"
+                            android:ems="10"
+                            android:inputType="textPersonName" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:orientation="vertical"
+                    android:paddingBottom="5dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginTop="5dp"
+                        android:orientation="horizontal"
+                        android:paddingBottom="5dp"
+                        android:paddingTop="5dp">
+
+                        <LinearLayout
+                            android:layout_width="65dp"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:padding="2dp">
+
+                            <TextView
+                                android:id="@+id/Tx6"
+                                android:layout_width="60dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="คำนำหน้า"
+                                android:textColor="#000" />
+
+                            <Spinner
+                                android:id="@+id/Sp2"
+                                android:layout_width="60dp"
+                                android:layout_height="30dp"
+                                android:layout_marginBottom="5dp"
+                                android:layout_marginTop="5dp"
+                                android:layout_weight="1"
+                                android:textColor="#000" />
+
+                            <TextView
+                                android:id="@+id/Tx9"
+                                android:layout_width="60dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="เพศ"
+                                android:textColor="#000" />
+
+                            <Spinner
+                                android:id="@+id/Sp3"
+                                android:layout_width="60dp"
+                                android:layout_height="25dp"
+                                android:layout_marginBottom="5dp"
+                                android:layout_marginTop="5dp"
+                                android:layout_weight="1"
+                                android:textColor="#000" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:orientation="vertical"
+                            android:padding="2dp">
+
+                            <TextView
+                                android:id="@+id/Tx7"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="ชื่อ"
+                                android:textColor="#000" />
+
+                            <EditText
+                                android:id="@+id/eT5"
+                                android:layout_width="match_parent"
+                                android:layout_height="30dp"
+                                android:layout_margin="5dp"
+                                android:layout_weight="1"
+                                android:background="@drawable/frame"
+                                android:ems="10"
+                                android:inputType="textPersonName"
+                                android:paddingLeft="10dp"
+                                android:paddingRight="10dp"
+                                android:layout_gravity="center|left" />
+
+                            <TextView
+                                android:id="@+id/Tx10"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="ตำแหน่ง"
+                                android:textColor="#000" />
+
+                            <Spinner
+                                android:id="@+id/Sp4"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="5dp"
+                                android:layout_marginTop="5dp"
+                                android:layout_weight="1"
+                                android:textColor="#000" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:orientation="vertical"
+                            android:padding="2dp">
+
+                            <TextView
+                                android:id="@+id/Tx8"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:text="นามสกุล"
+                                android:textColor="#000" />
+
+                            <EditText
+                                android:id="@+id/eT6"
+                                android:layout_width="match_parent"
+                                android:layout_height="30dp"
+                                android:layout_margin="5dp"
+                                android:layout_weight="1"
+                                android:background="@drawable/frame"
+                                android:ems="10"
+                                android:inputType="textPersonName"
+                                android:paddingLeft="10dp"
+                                android:paddingRight="10dp"
+                                android:layout_gravity="center|left" />
+
+                            <TextView
+                                android:id="@+id/Tx11"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="กลุ่มงาน(อาชีพ)"
+                                android:textColor="#000" />
+
+                            <Spinner
+                                android:id="@+id/Sp5"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="5dp"
+                                android:layout_marginTop="5dp"
+                                android:layout_weight="1"
+                                android:textColor="#000" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:orientation="horizontal"
+                        android:paddingBottom="5dp">
+
+                        <TextView
+                            android:id="@+id/Tx12"
+                            android:layout_width="200dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="ประเภทสมาชิก"
+                            android:textColor="#000" />
+
+                        <Spinner
+                            android:id="@+id/Sp6"
+                            android:layout_width="match_parent"
+                            android:layout_height="25dp"
+                            android:layout_weight="1"
+                            android:textColor="#000" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:id="@+id/Tx13"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="3dp"
+                        android:layout_marginTop="3dp"
+                        android:lines="3"
+                        android:padding="5dp"
+                        android:text="เงื่อนไขการสมัคร" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+
+                        >
+
+                        <RadioButton
+                            android:id="@+id/rB1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="ไม่ยอมรับ" />
+
+                        <RadioButton
+                            android:id="@+id/rB2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="ยอบรับ" />
+                    </LinearLayout>
+
+                    <Button
+                        android:id="@+id/button15"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="3dp"
+                        android:background="@drawable/bggreen"
+                        android:textColor="#fff"
+                        android:text="สมัครเรียน"
+                        />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>
